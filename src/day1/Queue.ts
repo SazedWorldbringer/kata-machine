@@ -1,5 +1,3 @@
-import { walkForTsConfig } from "tsconfig-paths/lib/tsconfig-loader";
-
 type Node<T> = {
     value: T,
     next?: Node<T>
